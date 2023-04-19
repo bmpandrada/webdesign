@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
+import img from "/src/assets/components/hero/amelie_img.jpg"
 const Hero = () => {
   return (
    <section className='section-hero'>
@@ -18,7 +19,7 @@ const Hero = () => {
             </div>
 
             <aside className="hero-side">
-                <img className='hero-img' src="/src/assets/components/hero/amelie_img.jpg" alt="" />                
+                <img className='hero-img' src={img} alt="" />                
                 <Link to="about">    <div className="side-btn">
                &rarr;
                </div></Link>
