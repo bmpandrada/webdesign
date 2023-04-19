@@ -477,7 +477,7 @@ section{
   }
   @media(max-width:66.5em){
     html{
-      font-size: 50%;
+      font-size: 55%;
     }
   }
   @media(max-width:47.8em){
@@ -515,5 +515,8 @@ section{
     }
     .header-container{
       grid-template-columns: 2fr 1fr;
+    }
+    .learn-btn{
+      margin-bottom: 1.5rem;
     }
   }
