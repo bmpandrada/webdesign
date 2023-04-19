@@ -27,11 +27,12 @@ body{
   font-family: var(--main-font);
   margin: 0 auto;
   padding: 0;
- 
   background-color: var(--primary-color);
+  overflow-x: hidden;
 }
 section{
   transition: all 0.6s ease;
+
 }
 .underline{
   border-bottom: 2px solid white;
@@ -74,9 +75,11 @@ section{
   list-style: none;
   align-items: center;
   gap: .5rem;
+  
 }
 .navbar-item{
   text-decoration: none;
+  
 }
 .navbar-item a:link,
 .navbar-item a:visited{
@@ -150,6 +153,7 @@ section{
   position: relative;
   padding: 0 10rem;
   height: 100vh;
+
 }
 .hero-padding{
  max-width: 142.2rem;
@@ -443,6 +447,7 @@ section{
    .show  .navbar{
     visibility: visible;
     transform: translateX(0);
+  
   } 
     .burger{
       display: flex;
@@ -467,7 +472,7 @@ section{
     }
    
   
-    .navbar ul{
+    .navbar, ul{
       position: absolute;
       display: flex;
       flex-direction: column;
