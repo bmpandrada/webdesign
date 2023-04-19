@@ -67,6 +67,9 @@ section{
 .port-name{
   font-weight: 100;
 }
+.navbar{
+  overflow: hidden;
+}
 .navbar-list{
   display: flex;
   list-style: none;
