@@ -19,6 +19,7 @@
 
 html{
   font-size: 62.5%;
+  overflow: hidden;
 }
 
 body{
@@ -67,9 +68,7 @@ section{
 .port-name{
   font-weight: 100;
 }
-.navbar{
-  overflow: hidden;
-}
+
 .navbar-list{
   display: flex;
   list-style: none;
@@ -475,7 +474,6 @@ section{
       top: 25%;
       left: 0;
       width: 100%;
-      height: 100%;
     }
     .navbar-item{
       font-size: 2.8rem;
