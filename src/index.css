@@ -507,7 +507,7 @@ section{
     }
     .about-content{
       grid-template-columns: 1fr;
-      padding: 0 5rem;
+      padding: 0 5rem !important;
     }
     .footer-about{
       grid-template-columns: 1fr 1fr;
