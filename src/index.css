@@ -320,7 +320,7 @@ section{
   justify-content: center;
   flex-direction: column;
   row-gap: 1rem;
-  right: 1%;
+  right: 2.5%;
   position: absolute;
   cursor: pointer;
   display: none;
@@ -512,5 +512,8 @@ section{
     }
     .footer-about{
       margin-top: 5rem;
+    }
+    .header-container{
+      grid-template-columns: 2fr 1fr;
     }
   }
