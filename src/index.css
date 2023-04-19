@@ -39,13 +39,14 @@ section{
 .main-header{
   padding: 0 3.2rem;
   background-color: var(--primary-color);
-  overflow-x: hidden;
+  
 }
 .header-container{
   display: grid;
   grid-template-columns: 1fr 2fr 1.5fr;
   align-items: center;
   padding: 1rem;
+  
 }
 .port-box{
   display: flex;
