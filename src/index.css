@@ -19,7 +19,6 @@
 
 html{
   font-size: 62.5%;
-  overflow-x: hidden;
 }
 
 body{
@@ -27,7 +26,7 @@ body{
   font-family: var(--main-font);
   margin: 0 auto;
   padding: 0;
-  overflow-x: hidden;
+ 
   background-color: var(--primary-color);
 }
 section{
@@ -147,6 +146,7 @@ section{
   color: white;
   position: relative;
   padding: 0 10rem;
+  height: 100vh;
 }
 .hero-padding{
  max-width: 142.2rem;
@@ -257,6 +257,7 @@ section{
   color: white;
   position: relative;
   padding: 0 10rem;
+  height: 100vh;
 }
 .about-name h1{
   font-size: 8.4rem;
@@ -483,6 +484,7 @@ section{
     html{
       font-size: 55%;
     }
+   
   }
   @media(max-width:47.8em){
     .hero-content{
@@ -490,9 +492,9 @@ section{
       padding: 0 5rem;
     }
     .contact-box{
-      grid-column-start: 2;
       
     }
+    
     .hero-details{
       margin: unset;
       width: 100%;
@@ -522,7 +524,7 @@ section{
       margin-top: 5rem;
     }
     .header-container{
-      grid-template-columns: 2fr 2fr;
+      grid-template-columns: 1.5fr 2fr;
     }
     .learn-btn{
       margin-bottom: 1.5rem;
