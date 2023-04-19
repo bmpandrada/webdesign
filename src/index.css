@@ -527,9 +527,18 @@ section{
       margin-top: 5rem;
     }
     .header-container{
-      grid-template-columns: 2fr 3fr;
+      grid-template-columns: 2fr 2.5fr;
     }
     .learn-btn{
       margin-bottom: 1.5rem;
+    }
+    .contact-box .dcv, .cm{
+      font-size: 1rem;
+    }
+    .port-name{
+      font-size: 1.5rem;
+    }
+    .port-title{
+      font-size: .8rem;
     }
   }
